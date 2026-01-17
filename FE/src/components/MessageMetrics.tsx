@@ -16,7 +16,6 @@ interface MessageMEetricsProps {
 }
 
 export default function MessageMetrics({ metrics, messageId, currentFeedback, onFeedback }: MessageMEetricsProps) {
-
     const getSentimentColor = (sentiment: string) => {
         switch (sentiment.toLowerCase()) {
             case 'positive':
