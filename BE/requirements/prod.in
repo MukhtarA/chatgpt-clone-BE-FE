@@ -1,0 +1,11 @@
+# Packages that are required in both dev and prod
+pydantic-settings
+tenacity
+fastapi
+gunicorn
+python-dotenv
+uvicorn[standard] 
+websockets
+openai
+python-multipart==0.0.20
+google-generativeai

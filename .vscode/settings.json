@@ -1,0 +1,7 @@
+{
+    "python.defaultInterpreterPath": "BE/.venv/bin/python3.9",
+    "python.analysis.extraPaths": ["./BE/src"],
+    "python.terminal.activateEnvironment": true,
+    "python-envs.pythonProjects": [],
+    "python-envs.defaultEnvManager": "ms-python.python:system"
+}

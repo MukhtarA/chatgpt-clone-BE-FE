@@ -1,0 +1,19 @@
+# Виртуальные окружения
+venv/
+.venv/
+env/
+
+# Кэш Python
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Лишний мусор из прошлых ошибок
+node_modules/
+
+# Переменные окружения (их лучше прокидывать через docker-compose)
+.env
+
+# Папки IDE
+.vscode/
+.idea/
